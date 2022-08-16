@@ -54,3 +54,9 @@ netstat -apt
 netstat -napt
 netstat -naptu
 ```
+
+State
+- LISTENING = open passivo, serviço de rede aberto aguardo alguem se conectar
+- ESTABLISHED = conexão estabelecida
+
+UDP não tem estado, apenas entrega. Se não chegou a aplicação que decide
